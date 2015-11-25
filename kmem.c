@@ -34,9 +34,7 @@
 #include <fio/port/dbgset.h>
 
 #include <linux/version.h>
-#if defined(__PPC64__) || defined(__mips64)
 #include <linux/vmalloc.h>
-#endif
 
 #if defined(__VMKLNX__)
 extern void *dlmalloc(size_t bytes);
